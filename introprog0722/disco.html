@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p>Hola a tothom desde html</p>
+
+    <script>
+        var edat = parseInt(prompt("Hola desde js, quina edat tens?", ""));
+        var dia = prompt("Hola desde js, quin dia és avui?", "");
+        // estructura condicional
+        if(edat >= 18 || (edat >= 16 && dia == "dijous")) {
+            alert("Pots passar");
+        } else if (edat < 0) {
+            alert("No em prenguis el pel!")
+        } else if (edat == 0) {
+            alert("Ves a buscar el DNI");
+        } else {
+            alert("No pots passar");
+        }
+
+
+
+    </script>
+
+</body>
+</html>
